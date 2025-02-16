@@ -8,7 +8,7 @@ app = Client("test", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 @app.on_message(filters.text)
 def reply(client, message):
-    message.reply("Hello, World!")
+    message.reply_text("Hello, World!")
 
 if __name__ == "__main__":
     app.run()
