@@ -8,7 +8,7 @@ app = Client("Jinwoo", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 @app.on_message()
 def handle_message(client, message):
-    message.reply_text(f"Hello {message.from_user.first_name}!")
+    message.reply_text(f"Ye Eren keh raha apki ma ka bhosda kaala hai true baat hai kya bro?")
 
 if __name__ == "__main__":
     app.run()
